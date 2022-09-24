@@ -7,5 +7,8 @@ const app  = http.createServer((req, res) =>{
     res.statusCode = 200;   //HTTP_OK
     res.setHeader("Content-Type", "text/html");
     res.end("Hello Word");
+});
 
-})
+app.listen(port);
+
+
