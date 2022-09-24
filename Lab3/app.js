@@ -14,7 +14,7 @@ const app  = http.createServer((req, res) =>{
     res.write("<img src = 'https://img.freepik.com/free-vector/space-background-with-landscape-planet_107791-797.jpg?size=626&ext=jpg&ga=GA1.2.1997401562.1664003848'>")
     res.write("<h2>I am learning NodeJS</h2>");
     res.write("<h3>My web page has been deployed to Heroku successfully!!!!</h3>")
-    res.end("Hello Word");
+    res.end();
 });
 //Bước 4: Chạy web bằng cách listen port
 app.listen(port);
